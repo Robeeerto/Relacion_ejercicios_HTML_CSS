@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.parra1{
+    background-color: grey;
+}
+.h1esp{
+    color: blue;
+}
+h2,h3{
+    border:solid 1px orange;
+}
+ul > li{
+    color: red;
+}
+ul ul > li{
+    color: green;
+}
+.h3ant{
+    background-color: pink;
+}
+.h3desp{
+    background-color: blue;
+}
+#primer-parrafo {
+    background-color: grey;
+}
+.img1{
+    border: solid 5px black;
+}
+.img2{
+    border: solid 5px red;
+}

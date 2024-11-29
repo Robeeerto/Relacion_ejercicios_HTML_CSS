@@ -1,0 +1,31 @@
+body{
+    background-color: #33e7ff;
+    font-family: sans-serif;
+}
+h1{
+    margin: ;
+    color: #005a66;
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    float: left;
+    width: 16rem;
+    height: 16rem;
+    overflow: auto;
+    border: 5px  dashed #005a66;
+    margin: 10px;
+    padding: 10px;
+    background-color: #00b4cc;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+p::first-letter{
+    float: left;
+    color: #005a66;
+    font-size: 5rem;
+    font-style: italic;
+    line-height: 3rem;
+}

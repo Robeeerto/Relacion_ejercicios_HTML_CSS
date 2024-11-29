@@ -1,0 +1,33 @@
+h1{
+    color:#333;
+    font-size:20px;
+}
+h2{
+    color: #666;
+    font-size: 16px;
+}
+a{
+    color: blue;
+    font-size: 16px;
+}
+ul{
+    color: #000;
+    font-size: 16px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+td{
+    text-align: left;
+}
+th {
+    background-color: #444;
+    text-align: center;
+    color: white;
+}

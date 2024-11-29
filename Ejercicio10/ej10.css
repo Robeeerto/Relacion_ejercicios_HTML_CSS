@@ -1,0 +1,44 @@
+body{
+    background-color: #ccac4d;
+}
+h1{
+    font-family:Ribeye ;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+p.intro{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 200%;
+    text-align: center;
+}
+cite{
+    text-decoration:underline;
+}
+p.latin{
+    font-family:Lobster;
+    font-size: 2.5rem;
+}
+p.espanol{
+    margin-bottom: 3rem;
+    color: white;
+    font-family: JustAnother;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+}
+@font-face {
+    font-family: JustAnother;
+    src: url(fonts/JustAnotherHand-Regular.ttf);
+}
+@font-face {
+    font-family:Ribeye;
+    src: url(fonts/RibeyeMarrow-Regular.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(fonts/Lobster-Regular.ttf);
+}

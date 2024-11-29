@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Ejercicio HTML - Corrige los
+errores">
+<link rel="stylesheet" href="ej12.css"> 
+<title>Crear con siguiente texto formateado</title>
+</head>
+<body>
+    <form>
+      <fieldset>
+        <legend>Datos personales</legend>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br>
+        
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="nombre@proveedor.com" required><br>
+      </fieldset>
+      <fieldset>
+        <legend>Datos del proyecto</legend>
+        <label for="descripcion">Breve descripción del proyecto:</label><br>
+        <textarea id="descripcion" name="descripcion" placeholder="Ingrese descripción del proyecto" required></textarea><br><br>
+        
+        <label>Estado actual del proyecto:</label><br>
+
+        <input type="radio" id="planteamiento" name="estado" value="planteamiento" checked>
+        <label for="planteamiento">En planteamiento</label>
+
+        <input type="radio" id="planificacion" name="estado" value="planificacion" required>
+        <label for="planificacion">En planificación</label>
+        
+        <input type="radio" id="ejecucion" name="estado" value="ejecucion" required>
+        <label for="ejecucion">En ejecución</label>
+        
+        <input type="radio" id="finalizado" name="estado" value="finalizado" required>
+        <label for="finalizado">Ya finalizado</label><br>
+        
+        <label for="presupuesto">Presupuesto aproximado (en $):</label>
+        <input type="number" id="presupuesto" name="presupuesto" value="1000" required><br><br>
+        
+      </fieldset> 
+      <button type="submit">Enviar</button><br>
+    </form>
+  </body>
+  </html>

@@ -1,0 +1,71 @@
+form{
+    text-align: left;
+    font-size: 14px;
+    color:#6B121B;
+    border-radius: 7px;
+    border: 1px dashed #B8BFCB;
+    padding: 14px;
+    background-color: #dce1eb;
+}
+fieldset{
+    border: 1px dashed gray;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+legend{
+    color:gray;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+input{
+    background-color: white;
+    border-radius: 4px;
+    color: #264F96;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+button[type="submit"] {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #2A477A;
+    font-size: 14px;
+    cursor: pointer;
+}   
+button[type="submit"]:hover {
+    background-color: #5376B2; 
+}
+textarea{
+    width: 450px;
+    height: 50px;
+    max-width: 493px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 50px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: #264F96;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+input:required, textarea:required {
+    border-color: #4AA248; 
+    box-shadow: 0 0 3px #4AA248; 
+}
+  input:invalid, textarea:invalid {
+    border-color: #FF7F7F;
+    box-shadow: 0 0 3px #FF7F7F; 
+}

@@ -1,4 +1,4 @@
-/* Estilo general */
+
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -64,16 +64,16 @@ p{
     font-size: 14px;
 }
 
-/* Contenido principal */
-.main-content {
+.main {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 20px;
     background-color: #f5f5f5;
+    flex-grow: 1;
 }
 
-.card {
+.cuadro {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -84,20 +84,20 @@ p{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.card-icon {
+.cuadro-img {
     width: 150px;
     height: 185px;
 }
 
-.card h2 {
+.cuadro h2 {
     color: #1c3d5a;
 }
-.logo-icon{
+.logo-imagen{
     width: 40px;
     height: 40px;
     margin-right: 10px;
 }
-/* Pie de página */
+
 .footer {
     background-color: #1c3d5a;
     color: white;
@@ -110,7 +110,9 @@ p{
     width: 100%;
     align-items: center;
 }
-
+.footer p {
+    font-size: 8px;
+}
 .social-icons img {
     width: 20px;
     height: 20px;
